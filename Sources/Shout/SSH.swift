@@ -9,7 +9,7 @@ import Foundation
 import Socket
 
 /// Manages an SSH session
-public class SSH {
+open class SSH {
     
     public enum PtyType: String {
         case vanilla
